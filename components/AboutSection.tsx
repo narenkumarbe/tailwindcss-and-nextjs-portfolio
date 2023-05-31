@@ -1,19 +1,19 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "Java" },
+  { skill: "Core Java" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
-  { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+  { skill: "Java Server Pages (JSP)" },
+  { skill: "Hibernate" },
+  { skill: "AJAX" },
+  { skill: "Spring Boot" },
+  { skill: "jQuery" },
+  { skill: "Web Services" },
+  { skill: "Microservices" },
+  { skill: "PrimeFaces" },
+];
 
 const AboutSection = () => {
   return (
@@ -34,13 +34,13 @@ const AboutSection = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Chennai, Tamil Nadu, India.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I graduated from Anna University, Chennai in 2008 with a BE in
+              Electronics and Communication Engineering and have been working in
+              Information Technology field ever since.
             </p>
             <br />
             <p>
@@ -72,7 +72,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -86,7 +86,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
